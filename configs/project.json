@@ -1,0 +1,48 @@
+{
+  "slug": "marketplace-liquidity-monitor",
+  "title": "Marketplace Liquidity Monitor",
+  "project_type": "analytics",
+  "domain": "Marketplace",
+  "summary": "Measure supply-demand balance, time-to-match, and liquidity risk across marketplace segments.",
+  "tags": [
+    "marketplace",
+    "ops",
+    "liquidity"
+  ],
+  "accent": "#577590",
+  "dashboard_metrics": [
+    {
+      "label": "North Star",
+      "value": "90",
+      "delta": "+7.1%"
+    },
+    {
+      "label": "Variance",
+      "value": "8%",
+      "delta": "-1.8%"
+    },
+    {
+      "label": "Decision Cycle",
+      "value": "4d",
+      "delta": "-0.5d"
+    }
+  ],
+  "sample_features": {
+    "current_conversion": 0.17,
+    "baseline_conversion": 0.12,
+    "volume": 1450,
+    "segment": "new_users"
+  },
+  "sample_metrics": {
+    "acquisition": 27.6,
+    "activation": 31.0,
+    "retention": 45.2,
+    "revenue": 68.2
+  },
+  "knowledge_base": [
+    "Marketplace Liquidity Monitor is positioned as a Marketplace starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Measure supply-demand balance, time-to-match, and liquidity risk across marketplace segments.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on marketplace, ops, liquidity."
+  ]
+}
